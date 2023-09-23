@@ -1,0 +1,22 @@
+# Ignore compiled Python files
+*.pyc
+__pycache__/
+**/migrations/*.py
+!**/migrations/__init__.py
+**/migrations/*.pyc
+**/migrations/__pycache__/
+
+
+# Ignore sensitive configuration files
+config.ini
+secret_keys.json
+start.txt
+
+# Ignore log files
+*.log
+
+# Ignore virtual environment directories
+venv/
+env/
+media/
+staticfiles/
